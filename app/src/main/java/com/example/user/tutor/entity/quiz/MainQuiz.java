@@ -1,7 +1,9 @@
-package com.example.user.tutor;
+package com.example.user.tutor.entity.quiz;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.user.tutor.R;
 
 public class MainQuiz extends AppCompatActivity {
 

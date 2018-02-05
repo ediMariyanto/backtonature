@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">Tutor</string>
+    <string name="app_name">Back to Herbal</string>
+    <string name="lblSplash">Welcome to Herbal Apps</string>
+    <string name="created_by">Edi Mariyanto</string>
     <string-array name="lisMenu">
         <item>BELIMBING WULUH</item>
         <item>TEMULAWAK</item>

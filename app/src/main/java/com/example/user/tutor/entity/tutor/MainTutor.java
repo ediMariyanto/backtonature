@@ -1,9 +1,11 @@
-package com.example.user.tutor;
+package com.example.user.tutor.entity.tutor;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.example.user.tutor.R;
 
 public class MainTutor extends AppCompatActivity {
 
