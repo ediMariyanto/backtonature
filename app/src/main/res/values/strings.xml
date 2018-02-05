@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tutor</string>
+    <string-array name="lisMenu">
+        <item>BELIMBING WULUH</item>
+        <item>TEMULAWAK</item>
+        <item>LIDAH BUAYA</item>
+        <item>TANAMAN KUMIS KUCING</item>
+        <item>DAUN JARAK</item>
+        <item>DAUN BELUTAS</item>
+        <item>DAUN SAMBILOTO</item>
+        <item>DAUN CINCAU</item>
+        <item>AKAR ALANG ALANG</item>
+        <item>AKAR KAYU MANIS</item>
+    </string-array>
+
+    <string-array name="soal_no_satu">
+        <item></item>
+
+    </string-array>
+
+</resources>
