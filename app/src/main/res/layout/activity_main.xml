@@ -9,6 +9,31 @@
     android:layout_marginRight="5dp"
     tools:context="com.example.user.tutor.MainActivity">
 
+    <ImageButton
+        android:id="@+id/btnHerbal"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:tooltipText="klik untuk melihat beberapa penjelasan tentang obat obatan herbal"
+        android:src="@drawable/herbalimg"
+        android:onClick="onclickToHerbal"/>
+
+    <ImageButton
+        android:id="@+id/btnQuiz"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_below="@id/btnHerbal"
+        android:background="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:tooltipText="Menuju Kuis"
+        android:src="@drawable/quizimg"
+        android:onClick="onClickToQuiz"
+        />
 
 
 </RelativeLayout>

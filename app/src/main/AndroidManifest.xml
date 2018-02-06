@@ -10,9 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".entity.tutor.MainTutor">
-
-        </activity>
+        <activity android:name=".entity.tutor.MainTutor"></activity>
         <activity android:name=".entity.quiz.MainQuiz" />
         <activity android:name=".SplashScreen">
             <intent-filter>
@@ -21,6 +19,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".entity.tutor.Content"></activity>
     </application>
 
 </manifest>

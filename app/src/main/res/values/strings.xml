@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Back to Herbal</string>
-    <string name="lblSplash">Welcome to Herbal Apps</string>
+    <string name="lblSplash">Selamat Datang di \n Back to Herbal</string>
     <string name="created_by">Edi Mariyanto</string>
     <string-array name="lisMenu">
         <item>BELIMBING WULUH</item>
@@ -15,9 +15,290 @@
         <item>AKAR KAYU MANIS</item>
     </string-array>
 
-    <string-array name="soal_no_satu">
-        <item></item>
+    <string name="belimbing">
+        <b>Menurunkan Tensi Darah </b>\n Gejalan akibat hipertensi tidak sama pada setiap orang, namun gejala hipertensi secara umum yaitu sakit kepala berlebihan, detak jantung terasa cepat (jantung berdebar), rasa pegal pada tengkuk (terasa tidak nyaman), pusing dan telinga berdenging.\n \n
+        Dari laman <b>Kompas.com</b>, bahwa batang belimbing wuluh memiliki kandungan saponin, sulfur, tanin, glucoside, kalsium oksalat, dan asam format. \n Adapun daunnya mengandung tanin, sulfur, asam format, dan perokside. Buahnya secara khusus bisa digunakan untuk menurunkan tensi darah. \n\n
+        Untuk membuat ramuan belimbing wuluh sebagai obat darah tinggi, seperti yang dipaparkan oleh seorang ahli tanaman obat, yaitu <b>Dr Setiawan Dalimarta</b>. Cara membuat ramuannya: \n
+        1. Pertama-tama siapkan 3 buah belimbing wuluh yang berukuran sedang. \n
+        2. Cuci buah belimbing wuluh hingga bersih, kemudian dipotong-potong menjadi beberapa bagian. \n
+        3. Lalu rebus dengan tiga gelas air, biarkan mendidih hingga hanya tersisa satu gelas. \n
+        4. Setelah itu tunggu agak mendingin airnya (tidak terlalu panas), lalu airnya disaring. \n
+        5. Minum air ramuan tersebut di pagi hari (setelah melakukan sarapan). \n \n
 
-    </string-array>
+        Cara lainnya untuk membuat ramuan: \n
+        1. Pertama-tama siapkan tiga buah belimbing wuluh, cuci bersih. \n
+        2. Siapkan juga biji srigading sebanyak 25 gr, cuci bersih. \n
+        3. Lalu biji srigading Anda tumbuk hingga halus. \n
+        4. Lalu masukkan ke dalam panci yang berisi empat gelas air. Lalu rebus bersama belimbing wuluh. \n
+        5. Biarkan saat mendidih, hingga hanya tersisa satu gelas. \n
+        6. Setelah itu, tunggu airnya agak mendingin, lalu saring airnya dan minum. Lakukan satu kali dalam sehari. \n\n
+
+        Sebagai catatan penting dalam membuat ramuan ini, pada penderita darah tinggi yang air kencingnya mengandung kristal oksalat, maka hendaknya tidak mengonsumsi ramuan ini. Hal itu karena bahannya yang mengandung asam oksalat. Demikian juga pada penderita hipertensi yang mengalami gangguan lambung seperti maag, maka hendaknya jangan meminum ramuan ini, karena rasa ramuan ini yang asam. Sebagai alternatif, Anda bisa menukar belimbing wuluh dengan belimbing manis. \n\n\n
+
+        <b>Mengobati Batuk</b> \n Ketika penyakit batuk muncul, mengakibatkan aktivitas yang dijalankan sehari-hari menjadi terganggu. Sehingga walaupun penyakit batuk bukanlah jenis penyakit yang serius, namun karena menganggu tetap harus secepatnya disembuhkan. \n
+        Penyakit batuk ini rentan menyerang, terutama pada anak-anak. Anda bisa mengobati batuk secara alami, yaitu dengan menggunakan belimbing wuluh. \n\n
+        Bahan-bahan yang perlu disiapkan: \n
+        1. 3 buah belimbing wuluh \n
+        2. 200 cc air \n
+        3. Gula secukupnya \n\n
+
+        Cara Membuat Ramuannya: \n
+        1. Pertama-tama campurkan air, belimbing wuluh dan gula pada satu wadaj. \n
+        2. Tim selama 1 jam. \n
+        3. Lalu angkat, tunggu hingga mendingin. \n
+        4. Lalu Anda saring air belimbing wuluh menggunakan kain. \n
+        5. Lalu bagilah menjadi dua, yaitu agar diminum di pagi dan malam hari. Minum sebelum makan. \n\n
+
+        Dalam resep diatas, Anda bisa mengganti gula dengan madu. Hal itu terserah Anda (sesuai dengan selera Anda). Minum ramuan ini secara rutin untuk memperoleh manfaat yang maksimal.
+
+    </string>
+
+
+    <string name="temulawak">
+        <b>Obat penyembuhan hepatitis</b>\n
+        Siapkan 2 jari temulawak, lalu cuci dan kupas. Iris dan rebus dengan ½ liter air dan tambahkan sedikit gula aren. Rebus hingga airnya tinggal setengah. Minum ramuan ini dua kali sehari.\n\n
+
+        <b>Meredakan derita asma</b>\n
+        Siapkan ½ rimpang temulawak, kemudian cuci bersih. Kupas dan iris temulawak. Rebus dengan 5 gelas air dan campurkan gula aren secukupnya. Rebus hingga airnya tinggal setengah. Larutan herbal ini diminum tiga kali sehari.\n\n
+
+        <b>Pengobatan untuk sakit ginjal</b>\n
+        Temulawak dicuci bersih dan dikupas. Siapkan 4 gelas air lalu rebuslah temulawak dengan segenggam daun kumis kucing dan segenggam daun meniran. Rebus sampai airnya tersisa setengah. Rebusan ini diminum sebanyak tiga kali sehari.\n\n
+
+        <b>Menyembuhkan bisul</b>\n
+        Temulawak yang sudah dicuci bersih, lalu dikupas. Rebus temulawak dengan 2 gelas air dan sedikit gula aren. Rebuh hingga airnya setengah lalu angkat. Tambahkan seibu jari asam jawa. Tunggu agak dingin, kemudian disaring dan diminum sekaligus.\n\n
+
+        <b>Temulawak juga efektif mengatasi mual terutama morning sickness</b>\n
+        Seperti yang kami kutip dari http://authoritynutrition.com/11-proven-benefits-of-ginger/temulawak juga efektif untuk mengatasi morning sickness serta rasa mual
+    </string>
+
+    <string name="lidahbuaya">
+        <b>Mengobati sengatan matahari</b>\n
+        Tanaman ini bermanfaat sebagai penyejuk dan menenangkan kulit yang terbakar sinar matahari. Bahkan para ahli dermatologi di Amerika merekomendasikan pemakaian pelembab kulit yang mengandung aloe vera atau kedelai untuk mengurangi gejala kulit terbakar matahari. Kita juga bisa menggunakan gel aloe vera ke bagian kulit tersebut.\n\n
+        <b>Mempercepat penyembuhan luka</b>\n
+        Senyawa dalam aloe vera mengandung zat anti-flamasi untuk membantu menyembuhkan kulit yang bermasalah. Selain itu, kandungan anti bakteri di dalamnya efektif melawan infeksi sehingga mempercepat pemulihan luka.\n
+        Empat penelitian terbaru dari Asia menyimpulkan bahwa lidah buaya mempercepat proses penyembuhan luka bakar ringan sekitar 9 hari lebih cepat daripada pengobatan konvensional.\n\n
+        <b>Mengatasi iritasi</b>\n
+        Mungkin Anda pernah merasa frustasi dengan kondisi kulit seperti eksim, psoriasis, atau rosacea yang diderita. Tak ada salahnya mencoba menggunakan aloe vera yang dioleskan ke kulit untuk mengatasinya.\n
+    </string>
+
+    <string name="kumiskucing">
+        <b>Untuk Memperlancar pengeluaran air kemih</b>\n
+        Manfaat daun kumis kucing yang paling ampuh adalah untuk proses kencing. Salah satu khasiat daun kumis kucing adalah dapat memperlancar keluarnya air kemih/ air seni. Jika seseorang sulit dalam proses keluarnya air seni, itu berarti saluran kencingnya sedang mengalami infeksi. Infeksi saluran ini bisa terjadi di saluran ginjal dan kandung kemih.Penyebab utamanya adalah adanya bakteri yang dinamakan escherishia coli yang biasanya hidup pada kotoran dan usus manusia.
+        Gejalanya antara lain : \n
+        1. Terasa sakit pada saat atau setelah kencing. \n
+        2. Rasa ingin kencing, akan tetapi tidak ada air seni yang keluar\n
+        3. Air seni berwarna pekat \n
+        4. Nyeri di pinggang \n
+        5. Jika telah mencapai ginjal, biasanya diikuti demam dan menggigil.\n\n
+        Cara Penggunaan:\n
+        Untuk mengatasi hal tersebut, ambil 25 gr daun kumis kucing segar, rebus menggunakan 2 gelas air putih sekitar 15 menit. Minum ramuan tersebut disore dan pagi hari masing-masing ½ gelas. \n\n
+
+        <b>Daun Kumis Kucing Mengobati Rematik</b>\n
+        Rematik adalah penyakit yang menyerang persendian, otot, dan urat. Pengobatan untuk penyakit ini biasnya ditujukan untuk mengurangi rasa nyeri, menghilangkan peradangan, serta memelihara fungsi persendian agar tetap dalam keadaan baik.\n
+        Penyeban reumatik belum dapat diketahui secara pasti, namun disinyalir penyakit ini disebabkan oleh beberapa faktor, termasuk faktor genetik, infeksi akibat virus, atau karena perubahan hormon.\n
+
+        Gejala penyakit ini adalah :\n\n
+        Nyeri pada anggota gerak tubuh \n
+        Otot menjadi lemah \n
+        Terjadi peradangan dan bengkak pada persendian \n
+        Sendi terasa kaku \n
+        Terjadi kejang dan kontraksi pada otot \n
+        Gangguan fungsi pada persendian \n
+        Bunyi pada sendi\n
+        Sendi goyah\n
+        Perubahan bentuk organ tubuh \n
+        Adanya benjolan / nodul \n\n
+        Ada beberapa cara tradisional yang bisa digunakan untuk mengobati penyakit ini, diantaranya adalah : rebus 5 helai daun kumis kucing serta daun meniran dengan 3 gelas air. Setelah dingin, minum ramuan tersebut tiga kali sehari masing-masing ½ gelas. \n\n
+
+        <b>Daun Kumis Kucing Untuk Mengobati batuk</b>\n
+        Batuk merupakan jenis penyakit yang umum diderita oleh manusia. Penyebab batuk sendiri adalah karena adanya benda asing (debu, alergi, atau kuman) atau sesuatu yang merangsang selaput lendir.
+        Menurut gejalanya, batuk terdiri dari beberapa jenis, yaitu batuk kering batuk berdahak, bronchitis, batuk asma, serta batuk rejan. Biasanya penyakit ini ditandai dengan rasa gatal ditenggorokan, terkadang juga disertai demam.
+        Banyak sekali obat dipasaran yang ditawarkan untuk mengobati jenis penyakit yang satu ini. Mulai dari obat yang terbuat dari bahan-bahan kimia, sampai yang berbahan ekstrak tanaman herbal. Adapun ramuan tradisional yang mampu mengatasi penyakit ini adalah dengan menggunakan daun kumis kucing, caranya : \n
+
+        Ambil 15 s/d 20 gr daun kumis kucing yang masih segar dan 1 gelas air bersih \n
+        Setelah dicuci bersih, rebus daun kumis kucing tersebut dengan segelas air tadi. \n
+        Minum selama 3 kali sehari masing-masing sebanyak 1 gelas. \n
+        Baik untuk batuk :\n
+
+        Manfaat jeruk nipis \n
+        Manfaat buah pepaya \n
+        Manfaat kencur\n\n
+
+        <b>Daun Kumis Kucing Mengatasi Masuk angin</b>\n
+        Masuk angin adalah penyakit yang ditimbulkan karena adanya perkumpulan gas yang tidak teratur di dalam tubuh. Penyakit ini biasnya disebabkan karena penurunan kondisi tubuh akibat kelelahan, kurang tidur, terlambat makan, kedinginan, atau bahkan karena cuaca panas yang ekstrim.
+        Penyakit ini bisa diderita oleh segala usia, namun penyakit ini bisa saja sembuh tanpa kita perlu mengkonsumsi obat-obatan. Adapun gejalanya antara lain : \n\n
+
+        Perut kembung \n
+        Badan terasa dingin \n
+        Mata ngantuk \n
+        Selera makan menghilang \n
+        Diare yang berkepanjangan \n
+        Jika dibiarkan, penyakit ini bisa berakibat fatal seperti diare yang berkepanjangan, sesak nafas, sakit pada persendian, serta mengalami panas yang tinggi.
+        Berikut cara tradisional untuk mengatasi masuk angin : \n\n
+
+        Siapkan daun kumis kucing dan segelas air \n
+        Cuci bersih daun tersebut lalu rebus dengan air tadi, biarkan hingga air rebusan hanya tersisa kira-kira ½ gelas saja. \n
+        Minum setelah air rebusan tersebut dingin. \n \n
+
+        <b>Kumis Kucing Mengobati Asam urat</b>
+        Asam urat adalah sejenis penyakit yang menyerang bagian persendian terutama sendi jari kaki, jari tangan, tumit, dengkul, siku, dan pergelangan tangan. Penyakit ini terjadi karena adanya konsumsi zat purin yang berlebihan.  Jika kadar asam urat dalam tubuh kita berlebih, ginjal tidak akan mampu mengeluarkan zat tersebut, sehingga kristal asam urat menumpuk di persendian. Hal ini mengakibatkan sendi terasa nyeri, bengkak dan meradang.
+        Adapun gejala asam urat diantaranya : \n
+        Timbulnya rasa sakit/ nyeri pada bagian persendian \n
+        Sendi terasa ngilu \n
+        Kemerahan pada sendi \n
+        Gejala ini biasa terjadi saat kita bangun pagi. \n \n
+
+        Adapun cara tradisional yang dapat mengobati asam urat antara lain adalah : \n
+        Ambil 4 s/d 5 lembar daun kumis kucing dan daun meniran yang masih segar \n
+        1 gelas air putih \n
+        Rebus semua bahan tersebut hingga air hanya tinggal ½ gelas saja. \n
+        Minum ramuan tersebut setidaknya 3 kali sehari. \n
+        Herbal Lain untuk asam urat : \n
+        Manfaat umbi talas \n
+        Manfaat daun serai \n
+    </string>
+
+    <string name="daunjarak">
+        <b>Mengatasi susah buang air besar</b> \n
+        Daun jarak yang masih segar, kemudian kukus dan dapat dimakan sebagai lalapan pada makanan anda. Hal ini efektif sekali untuk melancarkan BAB.
+        Herbal BAB : \n
+        Manfaat buah pepaya \n
+        Manfaat Apel \n
+        Manfaat bayam \n \n
+
+        <b>Menurunkan panas pada bayi </b> \n
+        2 sampai 3 helai daun jarak yan sudah bersih. kemudian olesi minyak makan yang masih baru. Panaskan daun diatas api kompor 2 menit sampai panas terasa merata. Letakkan daun pada perut dan punngung bayi atau agar tidak mudah lepas, dapat dipasangkan dalam gurita bayi
+        Penting untuk menurunkan panas bayi: \n
+        Manfaat daun sambiloto \n
+        Manfaat alang alang \n
+        Manfaat air putih \n
+
+
+        <b>Mengobati Kurap</b> \n
+        Minyak jarak efektif mengobati kurap dan masalah kulit yang umum. Senyawa aktif yang disebut asam undesilenat ditemukan dalam minyak jarak, membantu mengobati kurap.
+        Caranya : \n
+        Cuci daun jarak dalam air dan rendam dalam minyak kelapa selama beberapa jam dan panaskan. Terapkan di atas kulit yang terkena dampak dan tutup dengan kain katun. Tunggu hingga semalaman, sebelum di buka. Ulangi prosedur ini sampai sembuh sepenuhnya.\n\n
+        Manfaat jeruk nipis \n
+        Manfaat daun kemangi\n
+
+    </string>
+
+    <string name="daunbelutas">
+        <b>Mengurangi Pegal Linu</b>\n
+        Khasiat daun beluntas ternyata juga dapat digunakan untuk mengurangi pegal linu pada tubuh. Pegal linu yang sering terjadi, pastinya akan sangat menyiksa diri. Apabila mengalami masalah pegal linu ini, maka sebaiknya meminum rebusan daun beluntas sebanyak 3 kali dalam 1 hari.\n\n
+
+        <b>Menghilangkan Bau Badan</b>\n
+        Bau badan tentu merupakan masalah sangat mengganggu, terutama untuk kehidupan sosial. Baik para wanita atau pria, pasti akan sangat tidak percaya diri disaat mengalami masalah bau badan. Mulai sekarang tak perlu khawatir karena daun beluntas dapat menjadi solusi permasalahan ini. Minum secara rutin air rebusan daun beluntas, maka bau badan yang terjadi pada diri dapat teratasi. Bahan herbal lain yang juga mampu mengatasi bau badan ini seperti : \n
+        manfaat sirih \n
+        manfaat ampas kopi\n\n
+
+        <b>Menghilangkan Keputihan</b>\n
+        Daun beluntas yang biasa dikenal sebagai sebuah tanaman liar ini, banyak digunakan untuk mengobati keputihan yang biasa dialami oleh para wanita. Daun beluntas pun dapat membuat keputihan ini menjadi berhenti total dalam tempo yang cukup singkat. Selain daun beluntas, manfaat kunyit putih juga dapat digunakan untuk menangani keputihan.\n
+    </string>
+
+    <string name="daunsambiloto">
+        <b>Mengatasi flu biasa</b>\n
+        Beberapa penelitian telah menunjukkan bahwa ekstrak daun sambiloto yang dikombinasi dengan ginseng Siberia berkhasiat untuk meringankan gejala flu biasa, saat ramuan daun sambiloto diminum dalam waktu 72 jam pertama.
+        Gejala atau gangguan akibat flu sudah dapat membaik setelah 2 hari, terkadang lebih lama yaitu lebih dari tiga hari, hingga semua gejala hilang.
+        Beberapa penelitian menunjukkan bahwa kombinasi sambiloto dan ginseng Siberia juga mengurangi penyakit flu pada anak-anak.
+        Penelitian lainnya menemukan bahwa mengonsumsi ekstrak sambiloto mampu mengatasi masuk angin, dan mencegah pilek.
+
+        <b>Daun sambiloto untuk penyakit diabetes</b>
+        Dilansir dari borobudurherbal.com, bahwa senyawa andrographolide di dalam sambiloto berfungsi untuk menurunkan kadar glukosa dalam darah.
+        Menurut penelitian Munawara dkk dari Fakultas Farmasi UGM pada tahun 2004, menemukan bahwa rebusan daun sambiloto mampu menurunkan kadar glukosa darah pada tikus jantan.
+        Soedigdo dkk dari ITB, melakukan penelitian dengan percobaan pada kelici, menemukan bahwa andrographolide dalam ekstrak sambiloto terbukti mempunyai efek hipoglikemik (menurunkan kadar gula dalam darah).
+        Kencing manis (Diabetes mellitus) merupakan penyakit yang ditandai dengan kadar gula darah yang melebihi batas normal, akibat tubuh kekurangan insulin baik absolut maupun relatif. \n
+
+        Gejala-gejala Diabetes \n
+        Sering buang air kecil, terutama di malam hari. \n
+        Sering merasa haus dan lapar (yang tidak wajar) \n
+        Sering mengantuk \n
+        Merasa gatal-gatal dan kesemutan. \n
+        Kulit kering \n
+        Rentan timbul borok dan bisul \n
+        Luka sulit sembuh. \n
+        Berat badan terus menurun secara tidak wajar \n
+        Muah lelah dan tidak bertenaga. \n
+        Gairah seks menurun. \n\n
+
+        Anjuran dan pencegahan \n
+        Konsumsi Makanan tinggi serat, yaitu buah dan sayur yang banyak mengandung serat. Serat meningkatkan kontrol terhadap gula darah dan menurunkan kebutuhan insulin.
+        Berusaha dan optimis untuk menerapkan gaya hidup yang sehat. Melakukan sktivitas fisik dan olahraga secara rutin Hindari merokok, karena nikotin mempengaruhi secara buruk penyerapan glukosa oleh sel. \n\n
+
+        <b>Mengobati disentri</b>\n
+        Ramuan daun sambiloto untuk mengobati disentri, cara membuatnya: pertama-tama campurkan air perasan dari 500 gram herba krokot, yang ssebelumnya diuapkan lalu ditumbuk dengan 10 gram daun sambiloto kering.
+        Aduk hingga merata, lalu bagi menjadi tiga porsi, guna diminum 3X dalam 1 hari, yaitu pagi, siang, sore atau malam.\n
+    </string>
+
+    <string name="dauicincau">
+        <b>Obat Anti Inflamasi</b>\n
+        Cincau mengandung zat klorofil cukup besar pada daunnya. Zat ini dapat meredakan peradangan yang terjadi akibat bakteri atau kuman pada bagian tertentu. Untuk manfaat ini, daun cincau dapat ditumbuk dan diberi sedikit garam kemudian dioles pada bagian yang sakit 3 kali sehari. \n\n
+
+        <b>Obat Demam</b>\n
+        Daun cincau mengandung saponin dan manfaat antioksidan yang berperan untuk menurunkan demam. Minum air rebusa cincau setelah air disaring dua kali sehari. \n\n
+
+        <b>Obat Diabetes Mellitus </b>\n
+        Daun cincau memiliki kandungan senyawa berupa bisbenzilsokuinolin dan klorofil yang bermanfaat untuk menstabilkan kadar gula dalam darah. Hal tersebut kemudian akan memperbaiki kinerja hormon insulin pankreas dalam mengatur kadar gula darah. Jika mengkonsumsi air rebusan daun cincau ini secara teratur, sebanyak 200 ml 2 kali sehari. \n\n
+
+        <b>Obat Radang Lambung</b>
+        Kandungan vitamin C dan manfaat antioksidan dalam daun cincau akan membantu klorofil untuk mengatasi radang lambung yang dialami oleh seseorang yang memiliki kelainan pada asam lambungnya. Senyawa-senyawa tersebut, akan menguatkan otot dinding lambung untuk membunuh bakteri yang menyebabkan penyakit pada lambung. Untuk mengobati radang lambung, dapat mengkonsumsi rebusan daun cincau sebayak 2 kali sehari. \n
+    </string>
+
+    <string name="akaralangalang">
+        <b>Meredakan Panas Dalam</b>\n
+        Alang-alang dapat digunakan untuk meredakan panas dalam. Manfaat ini bisa didapatkan dengan mengambil umbi akar alang-alang secukupnya. Caranya : \n
+        Cuci umbi akar alang-alang terlebih dulu sampai bersih \n
+        Jemur di bawah panas matahari atau di oven sampai kering \n
+        Bila sudah kering tumbuk umbi akar tersebut hingga menjadi bubuk \n
+        Bubuk alang-alang bisa disedu dengan air panas dan dinikmati dengan tambahan manfaat madu secukupnya sebagai perasa.\n\n
+
+        <b>Mengatasi Sakit Ginjal</b>\n
+        Akar alang-alang ampuh untuk mengatasi sakit ginjal. Seperti yang sudah diketahui sakit ginjal jika tidak segera diobati dengan benar bisa menyebabkan komplikasi. Caranya :\n
+
+        Siapkan 120 gram akar alang-alang segar \n
+        Cuci bersih akar tersebut lalu rebus dalam 3 gelas air\n
+        Biarkan sampai mendidih dan air rebusan tersisa 1 gelas saja\n
+        Air rebusan akar alang-alang ini baik diminum rutin 2 kali sehari setiap pagi dan sore\n
+        Alang-alang memang bisa dimanfaatkan untuk pengobatan ringan sampai berat.\n\n
+
+        <b>Mengobati Mimisan </b>\n
+        Umumnya masyarakat mengenal manfaat sirih sebagai obat alami mimisan. Akan tetapi, akar alang-alang dapat digunakan sebagai pengobatan mimisan. Caranya : \n
+        Siapkan akar alang-alang yang masih segar secukupnya\n
+        Cuci bersih dan pastikan tidak ada sisa kotoran atau tanah yang masih menempel\n
+        Tumbuk akar alang-alang segar lalu peras untuk mendapatkan sarinya\n
+        Kumpulkan sari akar alang-alang kurang lebih 100 cc, bila sudah bisa langsung diminum.\n \n
+
+        <b>Mengobati Kencing Darah</b>\n
+        Kencing darah adalah salah satu gangguan kesehatan yang cukup menyiksa bagi penderitanya. Oleh sebab itu, perlu segera dilakukan upaya untuk mengobati kencing manis ini. Caranya cukup mudah : \n
+
+        Siapkan 100 gram akar alang-alang segar, cuci bersih, lalu potong kecil-kecil Rebus potongan akar alang-alang dengan 2 gelas air. rebus hingga tersisa separuhnya Bila sudah angkat lalu dinginkan rebusan
+        Saring untuk memisahkan air rebusan dan ampas Air rebusan akar alang-alang ini baik diminum 2 kali sehari secara rutin.
+
+        <b>Obat Muntah Darah</b>\n
+
+        Akar alang-alang efektif pula sebagai obat muntah darah. Caranya : \n
+
+        Coba ambil akar alang-alang sekitar 30 sampai 60 gram, cuci bersih, lalu potong-potong \n
+        Rebus potongan akar alang-alang tersebut dalam 3 gelas air \n
+        Tunggu sampai air mendidih dan bersisa 1 gelas\n
+        Bila sudah dinginkan lalu saring untuk memisahkan ampasnya \n
+        Air rebusan alang-alang ini bisa diminum setelah dingin. \n\n
+    </string>
+
+    <string name="kayumanis">
+        <b>Mengontrol gula darah</b>\n
+        Manfaat batang kayu manis yang pertama adalah untuk mengontrol  gula darah. Meminum air seduhan kulit batang tanaman ini dipercaya mampu menurunkan gula darah karena sifatnya yang mampu menghambat alfa-glukosidase. Adapun senyawa yang mampu menghambat alfa-glukosidase tersebut adalah kafeat dan sinamat. \n\n
+
+        <b>Menyembuhkan borok atau bisul </b> \n
+        Batang kayu manis mengandung senyawa yang mampu melawan H. Pylori, yaitu patogen penyebab borok atau bisul. Selain itu, antioksidan di dalamnya juga mampu mempercepat penyembuhan borok dan bisul. \n\n
+
+        <b>Sumber nutrisi</b>\n
+        kult batang kayu manis juga mengandung serat, kalsium dan zat besi meskipun dalam jumlah kecil. Meski begitu, kayu manis cukup membantu mencukupi kebutuhan nutrisi harian Anda jika dikonsumsi dalam takaran yang pas.
+        Menyuburkan kandungan Kulit batang kayu manis mengandung senyawa cinnamaldehyde, yaitu senyawa yang mampu meningkatkan progesteron dan menurunkan testoteron. Sifat semacam ini akan menyeimbangkan hormon reproduksi sehingga wanita menjadi lebih subur.
+
+        <b>Memperlancar haid </b>\n
+        Karena mampu menyeimbangkan hormon  reproduksi, batang kayu manis juga dapat memperlancar siklus haid. Hal ini juga berlaku untuk mempercepat peluruhan darah haid.\n
+    </string>
+    
 
 </resources>

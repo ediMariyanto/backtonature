@@ -47,15 +47,17 @@
             android:id="@+id/createdby"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:text="Created by :" />
+            android:layout_margin="4dp"
+            android:text="Created by :"
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/created"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:text="@string/created_by" />
+            android:layout_margin="4dp"
+            android:text="@string/created_by"
+            android:textSize="12sp" />
 
     </LinearLayout>
 </RelativeLayout>
