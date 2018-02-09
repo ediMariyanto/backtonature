@@ -5,13 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.example.user.tutor.R;
 
-public class MainQuiz extends AppCompatActivity {
+public class ContentQuiz extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_quiz);
+        setContentView(R.layout.activity_content_quiz);
     }
-
-
 }

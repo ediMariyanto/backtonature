@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_goneMarginRight="10dp"
+    tools:context="com.example.user.tutor.entity.quiz.InputUser">
+
+    <RelativeLayout
+        android:id="@+id/layoutLbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/lblInputData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Input Data User "
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/layoutEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutLbl"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/textNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input Nama :"
+            android:maxLength="20" />
+
+        <EditText
+            android:id="@+id/textNomorTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textNama"
+            android:layout_marginTop="10dp"
+            android:hint="Nomor Telepon :"
+            android:inputType="number"
+            android:maxLength="13" />
+
+        <EditText
+            android:id="@+id/textEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textNomorTelepon"
+            android:layout_marginTop="10dp"
+            android:hint="Email :"
+            android:inputType="textEmailAddress"
+            android:maxLength="50" />
+
+        <TextView
+            android:id="@+id/lblPekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textEmail"
+            android:layout_marginTop="10dp"
+            android:text="pekerjaan :" />
+
+        <Spinner
+            android:id="@+id/spPekerjaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lblPekerjaan"
+            android:drawSelectorOnTop="true" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBtnParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutEditText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorLightGray"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layoutUsiaParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutEditText"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:id="@+id/lblUsia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usia "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/layoutUsia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lblUsia"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnKurangUsia"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:onClick="DecrementUsia"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/textUsia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:text="20"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/btnTambahUsia"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:onClick="incrementUsia"
+                    android:text="+" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/layoutBeratBadanParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutEditText"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:id="@+id/lblBeratBadan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berat Badan "
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/layoutBeratBadan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lblBeratBadan"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnKurangBeratBadan"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:onClick="decrementBeratBadan"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/textBeratBadan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"
+                    android:text="50"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/btnTambahBeratBadan"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:onClick="incrementBeratBadan"
+                    android:text="+" />
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:id="@+id/layoutSepatuParent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layoutEditText"
+            android:layout_marginLeft="15dp">
+
+
+            <TextView
+                android:id="@+id/lblUkuranSepatu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Ukuran Sepatu"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/layoutUkuranSepatu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@id/lblUkuranSepatu"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnKurangUkuranSepatu"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="10dp"
+                    android:onClick="decrementUkuranSepatu"
+                    android:text="-" />
+
+                <TextView
+                    android:id="@+id/textUkuranSepatu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="35"
+                    android:textAlignment="center" />
+
+                <Button
+                    android:id="@+id/btnTambahUkuranSepatu"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="incrementUkuranSepatu"
+                    android:text="+" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutBtnParent"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:background="@color/colorPrimary"
+            android:onClick="onCLickSubmit"
+            android:text="Submit"
+            android:textColor="@color/colorWhite" />
+
+        <CheckBox
+            android:id="@+id/chkPeraturan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/btnSubmit" />
+
+        <TextView
+            android:id="@+id/lblPeraturan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="onClickPeraturanQuiz"
+            android:text="Baca Aturannya (klik disini)" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:onClick="onClickKembaliMenuQuiz"
+            android:text="Kembali"
+            android:textColor="@color/colorWhite" />
+    </RelativeLayout>
+</RelativeLayout>

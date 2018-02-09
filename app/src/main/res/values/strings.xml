@@ -299,6 +299,23 @@
         <b>Memperlancar haid </b>\n
         Karena mampu menyeimbangkan hormon  reproduksi, batang kayu manis juga dapat memperlancar siklus haid. Hal ini juga berlaku untuk mempercepat peluruhan darah haid.\n
     </string>
-    
+
+
+    <string name="peraturan_quiz">
+        Quiz ini tidak bisa kembali ke pertanyaan sebelumnya, karena semua pertanyaannya menggunakan sistem acak. \n\n
+        semua field input reqistrasi tidak boleh dikosongkan \n\n
+        batas umur diatas 10 tahun dan dibawah 90 tahun\n\n
+        batas berat badan diatas 20kg dan dibawah 150kg\n\n
+        batas ukuran sepatu diatas 30 dan dibawah 50\n\n\n\n
+
+
+        <b>selamat mencoba!!!!</b>
+    </string>
+
+    <string-array name="pekerjaan">
+        <item>Karyawan Swasta</item>
+        <item>Wiraswasta</item>
+        <item>Pelajar</item>
+    </string-array>
 
 </resources>

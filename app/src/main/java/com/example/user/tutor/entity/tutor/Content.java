@@ -45,6 +45,46 @@ public class Content extends AppCompatActivity {
                 teks.setText(teksHasil);
                 imgContent.setImageResource(R.drawable.temulawak);
                 break;
+
+            case 2:
+                teks.setText(teksHasil);
+                imgContent.setImageResource(R.drawable.lidahbuaya);
+                break;
+
+            case 3:
+                teks.setText(teksHasil);
+                imgContent.setImageResource(R.drawable.kumiskucing);
+                break;
+
+            case 4:
+                teks.setText(teksHasil);
+                imgContent.setImageResource(R.drawable.daunjarak);
+                break;
+
+            case 5:
+                teks.setText(teksHasil);
+                imgContent.setImageResource(R.drawable.belutas);
+                break;
+
+            case 6:
+                teks.setText(teksHasil);
+                imgContent.setImageResource(R.drawable.sambiloto);
+                break;
+
+            case 7:
+                teks.setText(teksHasil);
+                imgContent.setImageResource(R.drawable.cincau);
+                break;
+
+            case 8:
+                teks.setText(teksHasil);
+                imgContent.setImageResource(R.drawable.alangalang);
+                break;
+
+            case 9:
+                teks.setText(teksHasil);
+                imgContent.setImageResource(R.drawable.kayumanis);
+                break;
         }
     }
 

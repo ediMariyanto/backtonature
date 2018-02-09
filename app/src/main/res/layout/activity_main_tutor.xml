@@ -13,8 +13,7 @@
         android:divider="#20532c"
         android:dividerHeight="4px"
         android:headerDividersEnabled="true"
-        android:padding="16dp"
-        >
+        android:padding="16dp">
 
     </ListView>
 
@@ -25,6 +24,7 @@
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:background="@color/colorPrimary"
+        android:onClick="onCLickKembaliMainTutor"
         android:text="Kembali"
         android:textColor="@color/colorWhite" />
 

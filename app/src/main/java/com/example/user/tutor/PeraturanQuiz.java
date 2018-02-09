@@ -1,27 +1,21 @@
 package com.example.user.tutor;
 
 import android.content.Intent;
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
 import android.view.View;
 
 import com.example.user.tutor.entity.quiz.InputUser;
-import com.example.user.tutor.entity.tutor.MainTutor;
 
-public class MainActivity extends AppCompatActivity {
+public class PeraturanQuiz extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_peraturan_quiz);
     }
 
-    public void onclickToHerbal(View v){
-        Intent intent = new Intent(this, MainTutor.class);
-        startActivity(intent);
-    }
-
-    public void onClickToQuiz(View v){
+    public void onClickKembaliQuiz(View view){
         Intent intent = new Intent(this, InputUser.class);
         startActivity(intent);
     }
