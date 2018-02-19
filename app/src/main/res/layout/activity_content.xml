@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/imgJamu"
         android:layout_width="wrap_content"
-        android:layout_height="140dp"
+        android:layout_height="@android:dimen/notification_large_icon_height"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp" />
 
@@ -24,9 +24,11 @@
         android:layout_marginTop="1dp">
 
         <ScrollView
+            android:id="@+id/listContent"
+            android:layout_marginTop="10dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginBottom="1dp">
+            android:layout_height="325dp"
+            android:layout_marginBottom="5dp">
 
             <TextView
                 android:id="@+id/textContent"
@@ -36,6 +38,15 @@
                 android:layout_margin="1dp" />
 
         </ScrollView>
+
+        <ZoomControls
+            android:id="@+id/zoomControl"
+            android:layout_below="@id/listContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </ZoomControls>
+
     </RelativeLayout>
 
     <Button

@@ -7,12 +7,13 @@
     tools:context="com.example.user.tutor.entity.quiz.ContentQuiz">
 
     <LinearLayout
+        android:id="@+id/layoutUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
         android:orientation="horizontal"
-        android:padding="10dp"
-        android:background="@color/colorPrimary">
+        android:padding="10dp">
 
 
         <TextView
@@ -20,29 +21,88 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
-            android:textStyle="bold"
+            android:text="Selamat mengerjakan : "
+            android:textColor="@color/colorWhite"
             android:textSize="16sp"
-            android:text="Selamat mengerjakan kuis ini "
-            android:textColor="@color/colorWhite" />
+            android:textStyle="bold" />
 
         <TextView
+            android:id="@+id/textUser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
             android:background="@color/colorPrimary"
-            android:textStyle="bold"
+            android:text="user"
+            android:textColor="@color/colorWhite"
             android:textSize="16sp"
-            android:layout_marginLeft="8dp"
-            android:text="test"
-            android:textColor="@color/colorWhite" />
-
+            android:textStyle="bold" />
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/layoutAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layoutUser"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="test"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/rbtgAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtQuestion"
+            android:layout_marginTop="20dp">
+
+            <RadioButton
+                android:id="@+id/rbtA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Batang"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbtB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daun"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbtC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Akar"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/rbtD"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buah"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+    
     <Button
+        android:id="@+id/btnSubmitContentQuiz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="@color/colorPrimary"
-        android:textColor="@color/colorWhite"
-        android:text="Selanjutnya"/>
+        android:text="Pertanyaan Selanjutnya"
+        android:textColor="@color/colorWhite" />
 </RelativeLayout>

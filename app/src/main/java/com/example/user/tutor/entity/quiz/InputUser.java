@@ -15,21 +15,29 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.user.tutor.MainActivity;
-import com.example.user.tutor.PeraturanQuiz;
 import com.example.user.tutor.R;
+import com.example.user.tutor.model.UserModel;
+
+import java.io.Serializable;
+import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class InputUser extends AppCompatActivity {
 
-    EditText nama, nomorTelepon, email;
+    UserModel userModel = new UserModel();
+    EditText nama, nomorTelepon;
     TextView tUsia, tBeratBadan, tUkuranSepatu;
     Spinner pekerjaan;
     CheckBox check;
+
 
     int ukuranSepatu = 35;
     int usia = 20;
     int beratBadan = 45;
 
     final Context context = this;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +47,9 @@ public class InputUser extends AppCompatActivity {
         displayTextUsia(20);
         displayTextBeratBadan(45);
         displayTextUkuranSepatu(35);
+
     }
+
 
     public void displayTextUsia(int nilai) {
         TextView nilaiView = (TextView) findViewById(R.id.textUsia);
@@ -128,11 +138,6 @@ public class InputUser extends AppCompatActivity {
 
     }
 
-    public void onClickPeraturanQuiz(View v) {
-        Intent intent = new Intent(this, PeraturanQuiz.class);
-        startActivity(intent);
-    }
-
     public void onClickKembaliMenuQuiz(View v) {
 
         final AlertDialog.Builder alert = new AlertDialog.Builder(context);
@@ -159,36 +164,102 @@ public class InputUser extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public static boolean isEmailValid(String email) {
+        String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
+        Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
+        Matcher matcher = pattern.matcher(email);
+        return matcher.matches();
+    }
+
     public void onCLickSubmit(View v) {
 
         nama = (EditText) findViewById(R.id.textNama);
         nomorTelepon = (EditText) findViewById(R.id.textNomorTelepon);
-        email = (EditText) findViewById(R.id.textEmail);
+        EditText email = (EditText) findViewById(R.id.textEmail);
         pekerjaan = (Spinner) findViewById(R.id.spPekerjaan);
         tUsia = (TextView) findViewById(R.id.textUsia);
         tBeratBadan = (TextView) findViewById(R.id.textBeratBadan);
         tUkuranSepatu = (TextView) findViewById(R.id.textUkuranSepatu);
         check = (CheckBox) findViewById(R.id.chkPeraturan);
 
+        String cekPekerjaan = pekerjaan.getSelectedItem().toString();
         String cekNama = nama.getText().toString();
         String cekNomorTelepon = nomorTelepon.getText().toString();
         String cekEmail = email.getText().toString();
+        String usia = tUsia.getText().toString();
+        String beratBadan = tBeratBadan.getText().toString();
+        String ukuranSepatu = tUkuranSepatu.getText().toString();
+        String[] nilai = {"2","4","6","8","10"};
+        Random r = new Random();
+        int number = r.nextInt(nilai.length);
+        String a = nilai[number];
 
         boolean cekCheckbox = check.isChecked();
 
-        if (cekCheckbox == false) {
-            Toast.makeText(this, "Harap ceklist dan baca aturannya terlebih dahulu", Toast.LENGTH_SHORT).show();
-        } else if (cekNama.matches("")) {
+        if (cekNama.matches("")) {
             Toast.makeText(this, "Field Nama tidak boleh kosong", Toast.LENGTH_SHORT).show();
+            nama.setFocusable(true);
+            return;
         } else if (cekNomorTelepon.matches("")) {
             Toast.makeText(this, "Field Nomor Telepon tidak boleh kosong", Toast.LENGTH_SHORT).show();
+            nomorTelepon.setFocusable(true);
+            return;
         } else if (cekEmail.matches("")) {
             Toast.makeText(this, "Field Email tidak boleh kosong", Toast.LENGTH_SHORT).show();
+            return;
+        } else if (cekCheckbox == false) {
+            Toast.makeText(this, "Harap ceklist dan baca aturannya terlebih dahulu", Toast.LENGTH_SHORT).show();
+            return;
         } else {
-            Toast.makeText(this, "Berhasil", Toast.LENGTH_SHORT).show();
-        }
 
+            if (isEmailValid(cekEmail) == false) {
+                Toast.makeText(this, "Email tidak valid", Toast.LENGTH_SHORT).show();
+                email.setFocusable(true);
+                return;
+            } else {
+                Toast.makeText(this, "Penginputan User Berhasil", Toast.LENGTH_SHORT).show();
+                userModel.setNama(cekNama);
+                userModel.setPhone(cekNomorTelepon);
+                userModel.setEmail(cekEmail);
+                userModel.setPekerjaan(cekPekerjaan);
+                userModel.setUsia(usia);
+                userModel.setBeratBadan(beratBadan);
+                userModel.setUkuranSepatu(ukuranSepatu);
+                userModel.setNilai(a);
+
+                Intent intent = new Intent(this, ContentQuiz.class);
+                intent.putExtra("user", (Serializable) userModel);
+                startActivity(intent);
+            }
+            nama.setText("");
+            email.setText("");
+            check.setText("");
+            nomorTelepon.setText("");
+        }
 
     }
 
+    public void showPeraturan(View v){
+
+        final AlertDialog.Builder alert = new AlertDialog.Builder(context);
+        alert.setTitle("Confirmation");
+        alert.setMessage(R.string.peraturan_quiz).setCancelable(false).
+                setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        check = (CheckBox) findViewById(R.id.chkPeraturan);
+                        check.setChecked(true);
+                    }
+                })
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.cancel();
+                    }
+                });
+        AlertDialog alertDialog = alert.create();
+        alertDialog.show();
+
+
+    }
 }

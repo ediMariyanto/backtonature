@@ -318,4 +318,42 @@
         <item>Pelajar</item>
     </string-array>
 
+
+    <string-array name="pertanyaan">
+        <item>
+            Bagian mana yang digunakan untuk obat pada tumbuhan JARAK ?
+        </item>
+        <item>
+            Bagian mana yang digunakan untuk obat pada tumbuhan BELIMBING ?
+        </item>
+        <item>
+            Bagian mana yang digunakan untuk obat pada tumbuhan TEMULAWAK ?
+        </item>
+        <item>
+            Bagian mana yang digunakan untuk obat pada tumbuhan ALANG-ALANG ?
+        </item>
+        <item>
+            Bagian mana yang digunakan untuk obat pada tumbuhan CINCAU ?
+        </item>
+    </string-array>
+
+    <string-array name="jawaban">
+        <item>
+            Daun
+        </item>
+        <item>
+            Batang
+        </item>
+        <item>
+            Akar
+        </item>
+        <item>
+            Buah
+        </item>
+        <item>
+            Bunga
+        </item>
+
+    </string-array>
+
 </resources>

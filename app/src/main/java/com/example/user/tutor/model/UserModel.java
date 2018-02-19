@@ -8,13 +8,28 @@ import java.io.Serializable;
 
 public class UserModel implements Serializable {
 
+    private static final long serialVersionUID = 1L;
+
     private String nama;
-    private int phone;
+    private String phone;
     private String email;
     private String pekerjaan;
-    private int usia;
-    private int beratBadan;
-    private int ukuranSepatu;
+    private String usia;
+    private String beratBadan;
+    private String ukuranSepatu;
+    private String nilai;
+
+    public String getNilai() {
+        return nilai;
+    }
+
+    public void setNilai(String nilai) {
+        this.nilai = nilai;
+    }
+
+    public static long getSerialVersionUID() {
+        return serialVersionUID;
+    }
 
     public String getNama() {
         return nama;
@@ -24,11 +39,11 @@ public class UserModel implements Serializable {
         this.nama = nama;
     }
 
-    public int getPhone() {
+    public String getPhone() {
         return phone;
     }
 
-    public void setPhone(int phone) {
+    public void setPhone(String phone) {
         this.phone = phone;
     }
 
@@ -48,27 +63,27 @@ public class UserModel implements Serializable {
         this.pekerjaan = pekerjaan;
     }
 
-    public int getUsia() {
+    public String getUsia() {
         return usia;
     }
 
-    public void setUsia(int usia) {
+    public void setUsia(String usia) {
         this.usia = usia;
     }
 
-    public int getBeratBadan() {
+    public String getBeratBadan() {
         return beratBadan;
     }
 
-    public void setBeratBadan(int beratBadan) {
+    public void setBeratBadan(String beratBadan) {
         this.beratBadan = beratBadan;
     }
 
-    public int getUkuranSepatu() {
+    public String getUkuranSepatu() {
         return ukuranSepatu;
     }
 
-    public void setUkuranSepatu(int ukuranSepatu) {
+    public void setUkuranSepatu(String ukuranSepatu) {
         this.ukuranSepatu = ukuranSepatu;
     }
 }

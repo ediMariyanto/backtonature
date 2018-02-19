@@ -6,10 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.example.user.tutor.entity.tutor.MainTutor">
 
+    <EditText
+        android:id="@+id/editSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="Search..." />
+
     <ListView
         android:id="@+id/listMain"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/editSearch"
+        android:layout_marginLeft="5dp"
         android:divider="#20532c"
         android:dividerHeight="4px"
         android:headerDividersEnabled="true"

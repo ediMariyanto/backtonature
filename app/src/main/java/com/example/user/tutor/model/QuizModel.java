@@ -10,6 +10,11 @@ public class QuizModel implements Serializable {
     private String user;
     private int nilai;
 
+    public int getNilai() {
+        return nilai;
+    }
 
-
+    public void setNilai(int nilai) {
+        this.nilai = nilai+1;
+    }
 }
